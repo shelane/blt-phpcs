@@ -37,7 +37,7 @@ class BltPhpcsPlugin implements PluginInterface, EventSubscriberInterface {
   public function initPhpcsXml() {
     $phpcsXmlFilename = 'phpcs.xml.dist';
     if (!file_exists($phpcsXmlFilename)) {
-      copy('vendor/acquia/blt-phpcs/template/' . $phpcsXmlFilename, $phpcsXmlFilename);
+      copy('vendor/shelane/blt-phpcs/template/' . $phpcsXmlFilename, $phpcsXmlFilename);
     }
   }
 

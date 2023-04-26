@@ -11,11 +11,11 @@ This plugin is **community-supported**. Acquia does not provide any direct suppo
 
 ## Installation and usage
 
-To use this plugin, you must already have a Drupal project using BLT 12 or higher.
+To use this plugin, you must already have a Drupal project using BLT 13 or higher.
 
 In your project, require the plugin with Composer:
 
-`composer require --dev acquia/blt-phpcs`
+`composer require --dev shelane/blt-phpcs`
 
 # License
 
